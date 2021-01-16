@@ -36,3 +36,6 @@ Therefore, download the dataset and the notebook from the repository, and then, 
 2. train
      - x: Image
      - y: Mask
+
+## Citation
+A. M. Moradi Sizkouhi, M. Aghaei, S. M. Esmailifar, M. R. Mohammadi and F. Grimaccia, "Automatic Boundary Extraction of Large-Scale Photovoltaic Plants Using a Fully Convolutional Network on Aerial Imagery," in IEEE Journal of Photovoltaics, vol. 10, no. 4, pp. 1061-1067, July 2020, doi: 10.1109/JPHOTOV.2020.2992339.
