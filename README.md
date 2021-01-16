@@ -35,7 +35,7 @@ Therefore, download the dataset and the notebook from the repository, and then, 
 1. train
      - x: Image
      - y: Mask
-2. train
+2. test
      - x: Image
      - y: Mask
 
