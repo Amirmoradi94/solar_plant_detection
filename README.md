@@ -6,6 +6,8 @@ This study presents a novel method for boundary extraction of Photovoltaic (PV) 
 The FCN network pipeline is an extension of the classical CNN by conversion of fully-connected layers to convolutional ones. The input of our FCN is an RGB image, and the output is the predicted mask of the PV plants. The Mask-RCNN aims to solve instance segmentation problems. It is a two-stage framework. The first stage scans the image and generates proposals (areas likely to contain an object). The second stage classifies the proposals and generates masks in pixel level. This structure is a kind of FCN. The FCN uses convolutional and pooling layers to down-sample the features map of an image.
 ### Amir Dataset
 “Amir” dataset has been developed for use in autonomous monitoring of large-scale PV plants. This dataset includes different aerial imageries collected from a wide range of large-scale PV plants located in twelve countries and six continents. In Amir dataset, all necessary data has been provided to train an accurate model for an autonomous boundary detection, including aerial imagery of PV strings and their binary masks as labels.
+\
+\
 ![alt text](https://github.com/Amirmoradi94/solar_detection/blob/main/Others/masks.jpg)
 
 **Amir consists of 3580 aerial images from mainly large-scale PV plants. Amir dataset is available on [IEEE DataPort](https://ieee-dataport.org/documents/aerial-imagery-pv-plants-boundary-detection)**
